@@ -173,36 +173,36 @@
 
 ##########################################################################################
 # #addition
-print(2+2)
-# #multiplication
-print(2*2)
-# #division
-print(2/2)
-# #modulo
-print(2 % 2) #remainder of the divison
-# #powers
-print(2**2)
-# #get the max and min of a number
-print(max(2, 3))
-print(min(2, 3))
-# #round a number
-print(round(2.5)) #rounds to the nearest whole number
-# # absolute value
-print(abs(-2))
-# # order of operations
-print(2 + 10 * 10 +3)
-# #to do more you need to import special math libraries from python
-from math import *    
-# #this goes out and grabs some different math functions we can use
-# #floor method: always round down
-print(floor(3.7))
-print(floor(3.3))
-print(floor(3.9))
-# #ceil method: always round up
-print(ceil(3.7))
-print(ceil(3.3))
-# #sqrt method: will always find the square root of the number
-print(sqrt(36))
+# print(2+2)
+# # #multiplication
+# print(2*2)
+# # #division
+# print(2/2)
+# # #modulo
+# print(2 % 2) #remainder of the divison
+# # #powers
+# print(2**2)
+# # #get the max and min of a number
+# print(max(2, 3))
+# print(min(2, 3))
+# # #round a number
+# print(round(2.5)) #rounds to the nearest whole number
+# # # absolute value
+# print(abs(-2))
+# # # order of operations
+# print(2 + 10 * 10 +3)
+# # #to do more you need to import special math libraries from python
+# from math import *    
+# # #this goes out and grabs some different math functions we can use
+# # #floor method: always round down
+# print(floor(3.7))
+# print(floor(3.3))
+# print(floor(3.9))
+# # #ceil method: always round up
+# print(ceil(3.7))
+# print(ceil(3.3))
+# # #sqrt method: will always find the square root of the number
+# print(sqrt(36))
 
 
 
@@ -222,14 +222,22 @@ print(sqrt(36))
 # # **Getting Input from users**
 # #how do we get input from users?
 # input("what is your name?")
+input("What is your name? ")
 # # basic math calculator
 # #ask the user for 2 numbers
+number_one = int(input("Give me a number: "))
+number_two = int(input("Give me a different number: "))
 # # print out a statement where you:
 # # add them together
+print("added", number_one + number_two)
 # #multiply
+print("multipied", number_one * number_two)
 # # find the max number
+print(max(number_one, number_two))
 # # find the remainder of the numbers
+print(number_one % number_two)
 # #round one number
+
 
 
 
