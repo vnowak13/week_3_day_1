@@ -50,28 +50,28 @@
 # # Review
 # create variables for the following :
 # 1. age
-age = 16
-# 2. name
-name = "Victoria"
-# 3. song
-song = 'Twinkle Twinkle Little Star'
-# 4. food
-food = "fries"
-# 5. number
-number = 2000
+# age = 16
+# # 2. name
+# name = "Victoria"
+# # 3. song
+# song = 'Twinkle Twinkle Little Star'
+# # 4. food
+# food = "fries"
+# # 5. number
+# number = 2000
 
 
-# #now include the variables you just made print in the following...
+# # #now include the variables you just made print in the following...
 
 
-# Once upon a time, there was a [age] old coder named [name].
-# f string 
-print(f"Once upon a time, there was a {age} old coder named {name}.")
-# [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-print(f"{name} liked to hum the song {song} while coding. It was so annoying that their teammates would throw {food} until {name} would stop sining.")
+# # Once upon a time, there was a [age] old coder named [name].
+# # f string 
+# print(f"Once upon a time, there was a {age} old coder named {name}.")
+# # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
+# print(f"{name} liked to hum the song {song} while coding. It was so annoying that their teammates would throw {food} until {name} would stop sining.")
 
-# Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
-print(f"Still, {name} was the best coder on the team and could write {number} lines of code every day. Maybe {song} was {name}'s secret power?")
+# # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
+# print(f"Still, {name} was the best coder on the team and could write {number} lines of code every day. Maybe {song} was {name}'s secret power?")
 ##########################################################################################
 
 
@@ -108,13 +108,13 @@ print(f"Still, {name} was the best coder on the team and could write {number} li
 # Correcting Invalid Names: Below are some invalid names. Correct them according to the rules:
 
 
-# 1st_name
-# last name
-# email@address
-# percent%
-# variable#name
-# O
-# list
+# First_name
+# last_name
+# email_address
+# percent
+# variable_name
+# Zero
+# list_names
 # Creating Valid Names: Create valid names for the following descriptions:
 
 
@@ -135,10 +135,10 @@ print(f"Still, {name} was the best coder on the team and could write {number} li
 # email_address
 # percentage
 # variable_name
-# 1_variable
-# email@address
-# percentage%
-# i
+# One_variable
+# email_address
+# percentage
+# ideas
 
 
 
@@ -173,20 +173,36 @@ print(f"Still, {name} was the best coder on the team and could write {number} li
 
 ##########################################################################################
 # #addition
+print(2+2)
 # #multiplication
+print(2*2)
 # #division
+print(2/2)
 # #modulo
+print(2 % 2) #remainder of the divison
 # #powers
+print(2**2)
 # #get the max and min of a number
+print(max(2, 3))
+print(min(2, 3))
 # #round a number
+print(round(2.5)) #rounds to the nearest whole number
 # # absolute value
+print(abs(-2))
 # # order of operations
+print(2 + 10 * 10 +3)
 # #to do more you need to import special math libraries from python
-# #from math import *    
+from math import *    
 # #this goes out and grabs some different math functions we can use
-# #floor method
-# #ceil method
-# #sqrt method
+# #floor method: always round down
+print(floor(3.7))
+print(floor(3.3))
+print(floor(3.9))
+# #ceil method: always round up
+print(ceil(3.7))
+print(ceil(3.3))
+# #sqrt method: will always find the square root of the number
+print(sqrt(36))
 
 
 
